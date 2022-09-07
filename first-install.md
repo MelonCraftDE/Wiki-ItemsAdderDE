@@ -5,27 +5,26 @@ description: How to install the plugin
 # ⚙ First install
 
 {% hint style="info" %}
-**You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is offline.\
-You can upload files to your real server after you finished here.
+Du solltest die erste Konfiguration auf einem Testserver auf deinem PC durchführen um Fehler und häufige Neustarts zu vermeiden. Spieler mögen es nicht wenn der Server offline ist.\
+Du kannst die Daten zu deinem Hauptserver hochladen wenn du hier fertig bist.
 {% endhint %}
 
 {% hint style="danger" %}
-You **should** complete ALL installation steps. Not only the first.
+Du solltest ALLE Installationsschritte befolgen, nicht nur den ersten.
 {% endhint %}
 
 ## Step 1 - installing the plugin and APIs
 
-* install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* (optional) install **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
-* (optional) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
-* put **ItemsAdder.jar** file inside your plugins folder
-* start the server
-* let ItemsAdder finish loading **everything**
+* Installiere [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
+* Installiere [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
+* (optional) Installiere **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
+* (optional) Installiere [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
+* Lege **ItemsAdder.jar** Datei in dein "plugins" Ordner
+* Starte deinen Server
+* Lass ItemsAdder **alles** fertig laden
 
-First step is done.\
-Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).
-
+Erster Schritt abgeschlossen.\
+Jetzt geht es an **Schritt 2** um das **Ressourcenpaket** zu konfigurieren (keine Sorge, es ist nicht schwer) 
 ## Step 2 - resourcepack first installation
 
 #### Decide the resourcepack hosting method:
@@ -40,31 +39,30 @@ Now you must complete **step 2** to configure the resourcepack (don't worry it's
 
 ![](.gitbook/assets/items\_showcase\_gif.apng)
 
-**ItemsAdder** comes with a lot of custom content already created for you.\
-It's not automatically included into the downloaded plugin because some people might not want every item/feature automatically added into their server.
-
+**ItemsAdder** kommt zusammen mit einer Menge Inhalten\
+Sie sind nicht automatisch beim Download des Plugins dabei weil einige Spieler vielleicht nicht jedes Item oder Feature auf ihrem Server möchten.
 #### Default pack
 
 ![](<.gitbook/assets/image (47).png>)
 
-* download the latest version of the DefaultPack [here](https://github.com/ItemsAdder/DefaultPack/releases/latest)&#x20;
-* extract the content into the **ItemAdder** folder and overwrite the files if asked
-* run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
+* Lade die aktuelle Version vom DefaultPack [hier](https://github.com/ItemsAdder/DefaultPack/releases/latest)&#x20;
+* extrahiere den Inhalt in deinen **ItemAdder** Ordner und überschreibe alle Daten wenn du danach gefragt wirst
+* führe dann den `/iazip` Befehl aus (und folge deiner [Hosting Methode](plugin-usage/resourcepack-hosting/) wenn du dich nicht für **self-host** entschieden hast).
 
 #### Other pack (optional)
 
 ![](<.gitbook/assets/image (50).png>)
 
-* if you want you can download the OtherPacks file [here](https://github.com/ItemsAdder/OtherPacks/releases/latest) which adds even more content
-* extract the content into the **ItemAdder** folder and overwrite the files if asked
-* run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
+* Wenn du möchtest kannst du andere Packs Downloaden [hier](https://github.com/ItemsAdder/OtherPacks/releases/latest) which adds even more content
+* extrahiere den Inhalt in deinen **ItemAdder** Ordner und überschreibe alle Daten wenn du danach gefragt wirst
+* führe dann den `/iazip` Befehl aus (und folge deiner [Hosting Methode](plugin-usage/resourcepack-hosting/) wenn du dich nicht für **self-host** entschieden hast).
 
-If you're on 1.17 or lower you have to change the ores generation:
+Wenn du auf Version 1.17 oder niedriger bist, musst du folgendes bei der Erzgenerierung ändern:
 
-* Open these files and set `enabled: true`.\
+* Öffne diese Dateien und setze `enabled: true`.\
   `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_old.yml`\
   `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_old.yml`
-* Open these files and set `enabled: false`.\
+* Öffne diese Dateien und setze `enabled: false`.\
   `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_1_18.yml`\
   `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_1_18.yml`
 

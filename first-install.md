@@ -1,8 +1,8 @@
 ---
-description: How to install the plugin
+description: Wie man das Plugin installiert
 ---
 
-# ⚙ First install
+# ⚙ Erste Installation
 
 {% hint style="info" %}
 Du solltest die erste Konfiguration auf einem Testserver auf deinem PC durchführen um Fehler und häufige Neustarts zu vermeiden. Spieler mögen es nicht wenn der Server offline ist.\
@@ -13,7 +13,7 @@ Du kannst die Daten zu deinem Hauptserver hochladen wenn du hier fertig bist.
 Du solltest ALLE Installationsschritte befolgen, nicht nur den ersten.
 {% endhint %}
 
-## Step 1 - installing the plugin and APIs
+## Schritt 1 - Installieren des Plugins und APIs
 
 * Installiere [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
 * Installiere [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
@@ -27,15 +27,15 @@ Erster Schritt abgeschlossen.\
 Jetzt geht es an **Schritt 2** um das **Ressourcenpaket** zu konfigurieren (keine Sorge, es ist nicht schwer) 
 ## Step 2 - resourcepack first installation
 
-#### Decide the resourcepack hosting method:
+#### Entscheide dich für eine Hosting Methode:
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
 [resourcepack-hosting](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
-## Optional steps
+## Optionale Schritte
 
-### Adding official ItemsAdder custom content
+### Offiziellen ItemsAdder Inhalt hinzufügen
 
 ![](.gitbook/assets/items\_showcase\_gif.apng)
 
@@ -49,7 +49,7 @@ Sie sind nicht automatisch beim Download des Plugins dabei weil einige Spieler v
 * extrahiere den Inhalt in deinen **ItemAdder** Ordner und überschreibe alle Daten wenn du danach gefragt wirst
 * führe dann den `/iazip` Befehl aus (und folge deiner [Hosting Methode](plugin-usage/resourcepack-hosting/) wenn du dich nicht für **self-host** entschieden hast).
 
-#### Other pack (optional)
+#### Andere Packs (optional)
 
 ![](<.gitbook/assets/image (50).png>)
 
@@ -66,13 +66,13 @@ Wenn du auf Version 1.17 oder niedriger bist, musst du folgendes bei der Erzgene
   `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_1_18.yml`\
   `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_1_18.yml`
 
-### Removing default items
+### Entfernen von Standard Items
 
 {% content-ref url="faq/removing-default-stuff/" %}
 [removing-default-stuff](faq/removing-default-stuff/)
 {% endcontent-ref %}
 
-### Avoid glitched blocks
+### Vermeide glitched blocks
 
 {% content-ref url="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
 [avoid-glitched-blocks.md](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)

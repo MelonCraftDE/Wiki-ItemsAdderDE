@@ -25,7 +25,7 @@ Du solltest ALLE Installationsschritte befolgen, nicht nur den ersten.
 
 Erster Schritt abgeschlossen.\
 Jetzt geht es an **Schritt 2** um das **Ressourcenpaket** zu konfigurieren (keine Sorge, es ist nicht schwer) 
-## Step 2 - resourcepack first installation
+## Schritt 2 - Ressourcenpaket installieren
 
 #### Entscheide dich für eine Hosting Methode:
 
